@@ -16,7 +16,7 @@ const Icons = (icon: string) => {
         case 'Snow':
             icon='icons/snow.svg'
             console.log('NIEVE');
-            break;                        
+            break;                     
         case 'Clear':
             icon='icons/clear-day.svg'
             console.log('LIMPIO');
@@ -25,21 +25,13 @@ const Icons = (icon: string) => {
             icon='icons/fog.svg'
             console.log('NUBES');
             break;  
-        case 'Fog':
-            icon='icons/fog.svg'
-            console.log('NUBES');
-            break;    
-        case 'Haze':
-            icon='icons/haze.svg'
-            console.log('BRUMAS');
-            break;   
-        case 'Smoke':
-            icon='icons/smoke.svg'
-            console.log('HUMO');
-            break;      
+        case 'Mist':
+            icon='icons/mist.svg'
+            console.log('NIEBLA');
+            break;       
         default:
-            icon='icons/clear-day.svg'
-            console.log('LIMPIO');    
+            icon='icons/mist.svg'
+            console.log('NUBLADO');    
     }
   return icon
 }

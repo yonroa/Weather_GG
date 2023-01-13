@@ -23,7 +23,7 @@ html,
 
 .search-form {
   display: flex;
-  border: 1px solid var(--background-color);
+  border: 1px solid rgb(104, 171, 196);
   border-radius: 4px;
   overflow: hidden;
   outline: 0;
@@ -46,7 +46,7 @@ html,
   border: none;
   padding: 10px;
   cursor: pointer;
-  background-color: var(--background-color);
+  background-color: rgb(104, 171, 196);
   color: var(--container-background);
 }
 

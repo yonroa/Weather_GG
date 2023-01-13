@@ -51,7 +51,7 @@ html,
   flex-direction: column;
 }
 
-.forecast-info .forecast-icon {
+.forecast-icon {
   height: 50%;
   width: 50%;
 }
@@ -62,7 +62,7 @@ html,
   align-items: center;
 }
 
-.forecast-value .degrees {
+.degrees {
   display: flex;
   font-size: 4rem;
   align-items: center;
@@ -70,12 +70,12 @@ html,
   margin-right: 10px;
 }
 
-.forecast-value .switchUnits {
+.switchUnits {
   display: flex;
   align-items: center;
 }
 
-.forecast-value .unit {
+.unit {
   width: 100px;
   height: 100px;
 }
