@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Then you should set your own api key. From `https://home.openweathermap.org` create an account and copy your api key, then paste it in the `.env` file where says `'Your_Api_Key'` and save.
 
-- Finally execute the application with `npm start`, go to [http://localhost:3000]`(http://localhost:3000)` in your web browser and search for a city in the search bar.
+- Finally execute the application with `npm start`, go to [http://localhost:3000](http://localhost:3000) in your web browser and search for a city in the search bar.
 
 ## Available Scripts
 
