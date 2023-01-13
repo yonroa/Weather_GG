@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700|Pacifico&display=swap");
+
+:root {
+  --pacifico: "Pacifico", cursive;
+  --karla: "Karla", sans-serif;
+  --background-color: #607df2;
+  --font-color: #121619;
+  --container-background: #ffffff;
+  --secondary-font-color: #808080;
+}
+
+html,
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 16px;
+  color: var(--font-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.search-form {
+  display: flex;
+  border: 1px solid var(--background-color);
+  border-radius: 4px;
+  overflow: hidden;
+  outline: 0;
+  margin: 16px auto;
+}
+
+.search-form input {
+  flex-basis: 80%;
+  border: none;
+  padding: 10px;
+  font-family: var(--karla);
+}
+
+.search-form :focus {
+  outline: 0;
+}
+
+.search-form button {
+  flex-basis: 20%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--background-color);
+  color: var(--container-background);
+}
+
+.helper-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: var(--secondary-font-color);
+}

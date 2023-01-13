@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700|Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+:root {
+  --pacifico: "Pacifico", cursive;
+  --raleway: "Raleway", sans-serif;
+  --karla: "Karla", sans-serif;
+  --background-color: #607df2;
+  --font-color: #121619;
+  --container-background: #ffffff;
+  --secondary-font-color: #343434;
+}
+
+html,
+
+.spinner {
+  text-align: center;
+  align-items: center;
+}
+
+.weatherDetails .Sub-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.weatherDetails .date {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  color: var(--secondary-font-color);
+}
+
+.weatherDetails .hour {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: var(--secondary-font-color);
+}
+
+.location {
+  color: var(--secondary-font-color);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.forecast-info {
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast-info .forecast-icon {
+  height: 50%;
+  width: 50%;
+}
+
+.forecast-value {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast-value .degrees {
+  display: flex;
+  font-size: 4rem;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.forecast-value .switchUnits {
+  display: flex;
+  align-items: center;
+}
+
+.forecast-value .unit {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-condition {
+  font-family: var(--raleway);
+  font-size: 3rem;
+  color: var(--background-color);
+}
+
+.list {
+  padding: 0;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+}
+
+.list li {
+  margin: 10px 20px 0px 20px;
+}
+
+.list img{
+  width: 60%;
+  height: 60%;
+}
+
+.list .wind{
+  width: 70%;
+  height: 60%;
+}
